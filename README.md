@@ -9,18 +9,6 @@ In SVM classification, the traditional default setting ($C=1$) or the fallback $
 * **BVB C-Table:** Developed a lookup methodology based on the Bias-Variance trade-off.
 * **Performance:** Reduced optimization time from ~2 hours to <2 minutes while maintaining accuracy.
 
-## ⚙️ How It Works
-The workflow follows a 3-step systematic rule to bypass iterative testing:
-
-```mermaid
-graph TD
-    A[Dataset Input] --> B[Step 1: Calculate S&S Metric]
-    B --> C{Is S&S >= 5.68?}
-    C -->|Yes: Separable| D[Use Generalized MAV Equation]
-    C -->|No: Overlapping| E[Lookup BVB C-Table]
-    D --> F[Output Optimal C]
-    E --> F
-    F --> G[Train SVM Model]
 ## 📊 Results
 Validated on synthetic and real-world datasets (Iris, Wine), the S&S method consistently identified the "Sweet Spot" of the Bias-Variance trade-off curve with zero manual iteration.
 
