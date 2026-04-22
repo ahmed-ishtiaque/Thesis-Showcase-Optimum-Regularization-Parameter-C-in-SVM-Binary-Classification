@@ -6,15 +6,21 @@ In SVM classification, the traditional default setting ($C=1$) or the fallback $
 
 ### Key Contributions:
 * **S&S Metric:** Introduced a new "Separability & Scatteredness" metric to characterize dataset complexity.
+<img width="651" height="538" alt="image" src="https://github.com/user-attachments/assets/6392c013-543f-4c7e-b6b6-d3b0fe4871d9" />
+
 * **BVB C-Table:** Developed a lookup methodology based on the Bias-Variance trade-off.
-* **Performance:** Reduced optimization time from ~2 hours to <2 minutes while maintaining accuracy.
+  <img width="1287" height="994" alt="Proposed Bias-Variance Based C Table" src="https://github.com/user-attachments/assets/f0a7f65d-0457-4df0-b70f-135474e75614" />
+* **Performance:** Reduced optimization time significantly while maintaining accuracy.
+  
 
 ## 📊 Results
 Validated on synthetic and real-world datasets (Iris, Wine), the S&S method consistently identified the "Sweet Spot" of the Bias-Variance trade-off curve with zero manual iteration.
 <img width="1287" height="994" alt="Comparing between Cross-validation result and Proposed Result" src="https://github.com/user-attachments/assets/411f128d-f795-497c-883f-3c365662f44b" />
-<img width="1287" height="994" alt="Proposed Bias-Variance Based C Table" src="https://github.com/user-attachments/assets/f0a7f65d-0457-4df0-b70f-135474e75614" />
+Fig: Comparing between Cross-validation result and Proposed Result
 <img width="1287" height="994" alt="Proposed Method on the Iris Flower Dataset" src="https://github.com/user-attachments/assets/ab03b1be-2120-4f08-a54e-72e5e58f308a" />
+Fig: Applying Proposed Method on the Iris Flower Dataset
 <img width="1287" height="994" alt="Comparing Proposed and CV result on Iris Flower Dataset" src="https://github.com/user-attachments/assets/4e7fd869-d590-492c-9784-1bd86d2b744f" />
+Fig: Comparing Proposed Method result and CV result on Iris Flower Dataset
 
 ## 🎓 Academic Record
 * **Thesis:** [Optimum Regularization Parameter C in SVM Binary Classification](https://doi.org/10.32920/24050733.v1)
