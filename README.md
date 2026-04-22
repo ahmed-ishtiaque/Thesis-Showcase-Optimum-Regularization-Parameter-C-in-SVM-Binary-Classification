@@ -17,15 +17,15 @@ In SVM classification, the traditional default setting ($C=1$) or the fallback $
 ## 📊 Results
 Validated on synthetic and real-world datasets (Iris, Wine), the S&S method consistently identified the "Sweet Spot" of the Bias-Variance trade-off curve with zero manual iteration.
 <img width="1287" height="994" alt="Comparing between Cross-validation result and Proposed Result" src="https://github.com/user-attachments/assets/411f128d-f795-497c-883f-3c365662f44b" />
-**Fig: Comparing between Cross-validation result and Proposed Result**
+**Fig: Comparing between Cross-validation result and Proposed Result**.
 
 
 <img width="1280" height="665" alt="Proposed Method on the Iris Flower Dataset" src="https://github.com/user-attachments/assets/3f84ebc3-68c4-40d7-b1ac-e07803dccc90" />
-**Fig: Applying Proposed Method on the Iris Flower Dataset**
+**Fig: Applying Proposed Method on the Iris Flower Dataset**.
 
 
 <img width="1272" height="712" alt="Comparing Proposed and CV result on Iris Flower Dataset" src="https://github.com/user-attachments/assets/18f5772a-5076-4019-93bf-a03f74cb848a" />
-**Fig: Comparing Proposed Method result and CV result on Iris Flower Dataset**
+**Fig: Comparing Proposed Method result and CV result on Iris Flower Dataset**.
 
 ## 🎓 Academic Record
 * **Thesis:** [Optimum Regularization Parameter C in SVM Binary Classification](https://doi.org/10.32920/24050733.v1)
